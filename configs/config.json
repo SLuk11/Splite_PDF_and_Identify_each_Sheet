@@ -14,7 +14,7 @@
     "log_dir": "./logs"
   },
 
-  "LSP_Shipping_SqlDb": {
+  "Shipping_SqlDb": {
     "dialect": "mssql+pyodbc",
     "sql_username": "username",
     "sql_password": "password",
