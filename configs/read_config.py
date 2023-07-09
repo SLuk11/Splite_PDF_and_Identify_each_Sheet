@@ -13,7 +13,7 @@ def read_config():
 
     ## Call config and excel's sheets detail & Excel's file directory
     setting = config['shipping_pdf_cf']
-    sql_db = config['LSP_Shipping_SqlDb']
+    sql_db = config['Shipping_SqlDb']
     sql_db_conn_str = '{}://{}:{}@{}/{}?driver={}'.format(sql_db['dialect']
                                                           , sql_db['sql_username']
                                                           , sql_db['sql_password']
