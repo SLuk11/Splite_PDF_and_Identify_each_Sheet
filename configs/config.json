@@ -1,9 +1,9 @@
 {
   "shipping_pdf_cf": {
     "sender_email_lsit": [
-      "dennapa.nilpayak@ctibkk.com"
+      "demo@demo.com"
     ],
-    "taxno": "0105541000784",
+    "taxno": "0000000",
     "downloads_dir": "./downloads",
     "data_dir": "./data",
     "dest_dir": "./splited_pdf",
@@ -16,10 +16,10 @@
 
   "LSP_Shipping_SqlDb": {
     "dialect": "mssql+pyodbc",
-    "sql_username": "stepdev",
-    "sql_password": "Step!2023",
-    "sql_host": "172.25.7.200",
-    "sql_database_name": "LSP_Attachments",
+    "sql_username": "username",
+    "sql_password": "password",
+    "sql_host": "host_ip",
+    "sql_database_name": "DB_name",
     "sql_driver": "ODBC+Driver+17+for+SQL+Server"
   }
 }
